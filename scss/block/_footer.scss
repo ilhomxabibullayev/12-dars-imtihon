@@ -1,0 +1,117 @@
+.footer {
+    padding: 50px 0;
+    background: #3B3B3B;
+
+    .footer__content {
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+    }
+
+    .footer__icon {
+        margin-bottom: 15px;
+    }
+
+    .footer__text {
+        max-width: 208px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+        color: #CCCCCC;
+        margin-bottom: 15px;
+    }
+
+    .footer__name {
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+        color: #CCCCCC;
+        margin-bottom: 15px;
+    }
+
+    .footer__sub-title {
+        font-family: Space Mono;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 35.2px;
+        text-align: left;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+
+    .footer__item {
+        margin-bottom: 15px;
+    }
+
+    .footer__link {
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+        color: #CCCCCC;
+    }
+
+    .footer__link:hover {
+        color: #A259FF;
+    }
+
+    .footer__title {
+        font-family: Space Mono;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 35.2px;
+        text-align: left;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+
+    .footer__sub-text {
+        max-width: 260px;
+        height: 44px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+        color: #CCCCCC;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .footer {
+        padding: 50px 30px;
+
+        .footer__content {
+            flex-direction: column;
+        }
+
+        .footer__block {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 724px) {
+
+    .footer {
+        padding: 50px 30px;
+
+        .footer__content {
+            flex-direction: column;
+        }
+
+        .footer__block {
+            margin-bottom: 15px;
+        }
+    }
+}
